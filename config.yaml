@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    config.yaml                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: peterli <j2457li@uwaterloo.ca>             +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/04/18 17:18:05 by peterli           #+#    #+#              #
+#    Updated: 2023/04/18 17:20:02 by peterli          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Detection and OCR Configurations
+# Author: Peter Li
+
+---
+
+Data Config:
+  train data path: "data/CCPD2019/ccpd_base"
+
+Train Config: 
+  - batch size: 32 
+  - max epoch: 100
+  - net: ResNet
+  - device: CUDA
+
+Test Config:
+  - confidence threshold: 0.90
