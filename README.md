@@ -15,3 +15,8 @@ The project involves my personal practices on different architectures, loss func
 ## Dataset:
 - CCPD
 
+## Papers consulted:
+- [TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models](https://arxiv.org/pdf/2109.10282.pdf)
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+
+
